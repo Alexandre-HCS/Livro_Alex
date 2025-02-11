@@ -1,0 +1,208 @@
+/* Reset CSS Moderno */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif, Arial, Helvetica;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* FIM DO RESET */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    background-color: #EEE3DF;
+    flex-direction: column;
+}
+
+.sticky img{
+    width: 10vw;
+}
+
+.sticky{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 5px 3px 5px;
+    z-index: 1;
+}
+
+.sticky nav{
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.sticky nav a{
+    margin-left: 3vw;
+    color: #FF7F27;
+}
+
+.central{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #322B71;
+}
+
+.central img{
+    width: 20vw;
+    height: 70vh;
+    border-bottom: solid 3px #322B71;
+}
+
+.div p{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #322B71;
+}
+
+.title{
+    top: 0px;
+    text-align: center;
+    color: #322B71;
+}
+
+h3{
+    color: #E49A3B;
+    margin-bottom: 1vh;
+}
+
+
+main section{
+    position: relative;
+    padding-left: 1vw;
+}
+
+main section p{
+    margin-bottom: 2vh;
+    color: #322B71;
+}
+
+.stars{
+    color: #7971c2;
+}
+
+.diarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.placeholder{
+    width: 17.5;
+    height: 35vh;
+}
+
+.escritor{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.writer{
+    width: 20vw;
+    height: 60vh;
+    margin-left: 10vw;
+}
+
+
+.escritor p{
+    width: 66vw;
+}
+
+footer{
+    background-color: white;
+    padding: 1vw 1vh 1vw 1vh;
+}
+
+.filme{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.filme img{
+    width: 20vw;
+    height: 60vh;
+}
+
+.filme a{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: #322B71;
+}
+
+section{
+    margin-bottom: 10vh;
+}
