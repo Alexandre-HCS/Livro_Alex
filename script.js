@@ -28,7 +28,7 @@ prev.onclick = () =>{
     let desativar = document.querySelector('.ativo');
     desativar.classList.remove('ativo')
     if(ativo <= 0 ){
-        ativo = 2
+        ativo = 4
     }else{
         ativo = ativo -1
     }
