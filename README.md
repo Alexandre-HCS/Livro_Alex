@@ -17,3 +17,5 @@ Este projeto tem como objetivo a criação de um site interativo e estilizado de
 ✔ **Imagens Temáticas** – Uso de imagens do livro e da adaptação cinematográfica para criar um ambiente visual envolvente.  
 
 O projeto visa proporcionar aos leitores um espaço interativo para explorar o universo do livro de forma inovadora e divertida! 🚀📚  
+
+### FIGMA: https://www.figma.com/proto/CyRO8OyhzQfu5pBu0jpVdS/Untitled?node-id=0-1&t=NYmFNZPbSUHZ2cJg-1
